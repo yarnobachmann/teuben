@@ -1,0 +1,40 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+@media(min-width:767px) {
+    .navbar {
+        margin-top: 30px;
+        padding: 20px 0;
+        -webkit-transition: background .10s ease-in-out,padding .10s ease-in-out;
+        -moz-transition: background .10s ease-in-out,padding .10s ease-in-out;
+        transition: background .10s ease-in-out,padding .10s ease-in-out;
+        -webkit-transition: background .8s ease-in-out,margin .8s ease-in-out;
+        -moz-transition: background .8s ease-in-out,margin .8s ease-in-out;
+        transition: background .8s ease-in-out,margin .8s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+
+    }
+
+    .margin-nav {
+      margin-top: 0px;
+    }
+
+
+}
