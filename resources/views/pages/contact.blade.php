@@ -31,8 +31,16 @@
 
 <div class="container-fluid text-center">
   <div class="row content">
-
-    <div class="col-sm-7 text-left">
+		<div class="col-sm-2 sidenav hidden-xs">
+      <p id="linkslogo"><a href="https://twitter.com/TeubenAutos" target="_blank"><img src="img/links/twitter.gif" alt=""></a></p>
+      <p id="linkslogo"><a href="https://www.facebook.com/TeubenAutos" target="_blank"><img src="img/links/facebook.gif" alt=""></a></p>
+      <p id="linkslogo"><a href="http://www.belastingdienst.nl/reken/motorrijtuigenbelasting/" target="_blank"><img src="img/links/logobelastingdienst.jpg" alt=""></a></p>
+			<p id="linkslogo"><a href="http://www.autopas.nl/" target="_blank"><img src="img/links/naplogo.gif" alt=""></a></p>
+			<p id="linkslogo"><a href="https://ovi.rdw.nl/" target="_blank"><img src="img/links/RDW-check.png" alt=""></a></p>
+			<p id="linkslogo"><a href="http://www.cargo-export.eu" target="_blank"><img src="img/links/Cargo-Export.png" alt=""></a></p>
+			<p id="linkslogo"><a href="http://www.automotivefinancielediensten.nl/" target="_blank"><img src="img/links/afd-lease.jpg" alt=""></a></p>
+    </div>
+    <div class="col-sm-5 text-left">
       <h1>Mail Ons</h1>
         <hr>
         <h3>Teuben Auto's</h3><p>
@@ -139,5 +147,6 @@
 		<script src="js/bootstrap.min.js"></script>
     <script src="js/js.js"></script>
 		<script src="js/scrolling-nav.js"></script>
+		<script src="js/imgsize.js"></script>				
 	</body>
 </html>

@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="{{ url("/") }}">Teubenautos</a>
+            <a class="navbar-brand page-scroll" href="{{ url("/") }}"><img src="img/logo/teuben_logo.png" alt="" class="logo_teuben min-img"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -19,19 +19,19 @@
                     <a class="page-scroll" href="#page-top"></a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#about">Home</a>
+                    <a class="page-scroll" href="{{ url("/") }}">Home</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#services">Over ons</a>
+                    <a class="page-scroll" href="{{ url("financiering") }}">Financiering</a>
                 </li>
                 <li>
-                    <a href="page-scroll" href="#">Occasions</a>
+                    <a class="page-scroll" href="{{ url("occasions") }}">Occasions</a>
                 </li>
                 <li>
-                    <a href="page-scroll" href="#">Bedrijfswagens</a>
+                    <a class="page-scroll" href="{{ url("bedrijfswagens") }}">Bedrijfswagens</a>
                 </li>
                 <li>
-                    <a href="page-scroll" href="#">Fotoalbum</a>
+                    <a class="page-scroll" href="#">Fotoalbum</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="{{ url("/contact") }}">Contact</a>

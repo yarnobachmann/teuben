@@ -19,5 +19,18 @@ class PagesController extends Controller {
         return view('pages.contact');
     }
 
+    public function getFinanciering()
+    {
+       return view('pages.financiering');
+    }
+     public function getOccasions()
+    {
+        return view('pages.occasions');
+    }
+      public function getBedrijfswagens()
+     {
+         return view('pages.bedrijfswagens');
+     }
+
 }
 ?>

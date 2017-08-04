@@ -39,6 +39,9 @@ body {
   background-color:#555;
 }
 .carousel img {
+  object-fit:cover;
+  min-width: 100%;
+  max-width: none;
   background-size: cover;
   position: absolute;
   top: 0;
@@ -142,6 +145,35 @@ body {
   margin-left: -40%;
 }
 
+#linkslogo img{
+  width: 134px;
+}
+
+.finan{
+    margin-top: 40px;
+
+}
+
+.finan p{
+    font-size: 12px;
+}
+
+
+.panel{
+    text-align: center;
+    box-shadow: 2px 2px 8px grey;
+
+}
+.text-center {
+
+}
+
+
+.text-left {
+  background-color: white;
+}
+
+
 
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
     .row.content {height: 450px}
@@ -149,7 +181,6 @@ body {
     /* Set gray background color and 100% height */
     .sidenav {
       padding-top: 20px;
-      background-color: #f1f1f1;
       height: 100%;
     }
 
@@ -160,4 +191,35 @@ body {
         padding: 15px;
       }
       .row.content {height:auto;}
+    }
+
+    .well{
+        box-shadow: 2px 2px 8px grey;
+    }
+
+    .logo_teuben1 {
+      width: auto;
+      margin-top: 0;
+      height: 100%;
+      margin-left: -10px;
+    }
+
+    .logo_teuben {
+      margin-top: -35px;
+      width: 250px;
+      height: 90px;
+      margin-left: -10px;
+    }
+
+    .navbar {
+      white-space: nowrap;
+    }
+
+    @media screen and (max-width: 989px) {
+      .min-img {
+        width: auto;
+        margin-top: 0;
+        height: 100%;
+        margin-left: -10px;
+      }
     }

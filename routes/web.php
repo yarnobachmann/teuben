@@ -14,3 +14,9 @@
 Route::get('/', 'PagesController@getIndex');
 
 Route::get('contact', 'PagesController@getContact');
+
+Route::get('occasions', 'PagesController@getOccasions');
+
+Route::get('financiering', 'PagesController@getFinanciering');
+
+Route::get('bedrijfswagens', 'PagesController@getBedrijfswagens');
