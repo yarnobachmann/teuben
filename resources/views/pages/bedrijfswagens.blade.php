@@ -26,7 +26,7 @@
 
 <div class="textbalk">
 
-  <h2>Bedrijfswagens</h2>
+  <h2><i class="fa fa-truck" aria-hidden="true"></i>Bedrijfswagens</h2>
 </div>
 
 <div class="container-fluid text-center">

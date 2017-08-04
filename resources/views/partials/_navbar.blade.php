@@ -19,22 +19,22 @@
                     <a class="page-scroll" href="#page-top"></a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="{{ url("/") }}">Home</a>
+                    <a class="page-scroll" id="activeHome" href="{{ url("/") }}">Home</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="{{ url("financiering") }}">Financiering</a>
+                    <a class="page-scroll" id="activeFinanciering" href="{{ url("financiering") }}">Financiering</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="{{ url("occasions") }}">Occasions</a>
+                    <a class="page-scroll" id="activeOccasions" href="{{ url("occasions") }}"><i class="fa fa-car" aria-hidden="true"></i>Occasions</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="{{ url("bedrijfswagens") }}">Bedrijfswagens</a>
+                    <a class="page-scroll" id="activeBedrijfswagens" href="{{ url("bedrijfswagens") }}"><i class="fa fa-truck" aria-hidden="true"></i>Bedrijfswagens</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#">Fotoalbum</a>
+                    <a class="page-scroll" id="activeFotoalbum" href="#">Fotoalbum</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="{{ url("/contact") }}">Contact</a>
+                    <a class="page-scroll" id="activeContact" href="{{ url("/contact") }}">Contact</a>
                 </li>
             </ul>
         </div>

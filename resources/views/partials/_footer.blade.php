@@ -3,20 +3,20 @@
 
   <div class="footer-left">
 
-    <h3>teuben<span>autos</span></h3>
+    <h3>teuben<span>auto's</span></h3>
 
     <p class="footer-links">
-      <a href="#">Home</a>
+      <a href="{{ url('/') }}">Home</a>
       ·
-      <a href="#">Over ons</a>
+      <a href="{{ url('financiering') }}">Financiering</a>
       ·
-      <a href="#">Occasions</a>
+      <a href="{{ url('occasions') }}">Occasions</a>
       ·
-      <a href="#">Bedrijfswagens</a>
+      <a href="{{ url('bedrijfswagens') }}">Bedrijfswagens</a>
       ·
-      <a href="#">Fotoalbum</a>
+      <a href="{{ url('/') }}">Fotoalbum</a>
       ·
-      <a href="#">Contact</a>
+      <a href="{{ url('contact') }}">Contact</a>
     </p>
 
     <p class="footer-company-name">Teubenautos &copy; 2017</p>

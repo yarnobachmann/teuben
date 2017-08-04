@@ -216,16 +216,23 @@ body {
     width: 134px;
   }
 
+  .min-img {
+    width: auto;
+    margin-top: -15px;
+    height: 50px;
+    margin-left: -10px;
+  }
+
   .logo_teuben1 {
     width: auto;
-      margin-top: -15px;
+    margin-top: -15px;
     height: 50px;
     margin-left: -10px;
   }
 
   .logo_teuben {
     margin-top: -35px;
-    width: 250px;
+    width: 280px;
     height: 90px;
     margin-left: -10px;
   }
@@ -246,7 +253,7 @@ body {
   .well{
     text-align: left;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 1200px) {
     .navbar-header {
         float: none;
     }
@@ -284,3 +291,8 @@ body {
     .collapse.in{
         display:block !important;
     }
+  }
+
+  #activeContact {
+    color: red;
+  }

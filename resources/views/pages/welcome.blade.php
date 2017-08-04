@@ -70,7 +70,7 @@
 <!-- /.carousel -->
 <div class="textbalk">
 
-  <h2>Welkom de website van Teubenauto's</h2>
+  <h2>Welkom op de website van Teubenauto's</h2>
 </div>
 
 <div class="container-fluid text-center">

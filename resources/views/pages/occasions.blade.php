@@ -27,7 +27,7 @@
 
 		 <div class="textbalk">
 
-		   <h2>Occasions</h2>
+		   <h2><i class="fa fa-car" aria-hidden="true"></i>Occasions</h2>
 		 </div>
 
 		 <div class="container-fluid text-center">

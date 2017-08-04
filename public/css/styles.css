@@ -201,16 +201,23 @@ body {
         box-shadow: 2px 2px 8px grey;
     }
 
+    .min-img {
+      width: auto;
+      margin-top: -15px;
+      height: 50px;
+      margin-left: -10px;
+    }
+
     .logo_teuben1 {
       width: auto;
-      margin-top: 0;
-      height: 100%;
+      margin-top: -15px;
+      height: 50px;
       margin-left: -10px;
     }
 
     .logo_teuben {
       margin-top: -35px;
-      width: 250px;
+      width: 280px;
       height: 90px;
       margin-left: -10px;
     }
@@ -222,13 +229,13 @@ body {
     @media screen and (max-width: 989px) {
       .min-img {
         width: auto;
-        margin-top: 0;
-        height: 100%;
+        margin-top: -15px;
+        height: 50px;
         margin-left: -10px;
       }
     }
 
-    @media (max-width: 991px) {
+    @media (max-width: 1200px) {
       .navbar-header {
           float: none;
       }
@@ -266,3 +273,14 @@ body {
       .collapse.in{
           display:block !important;
       }
+}
+    @media screen and (max-width: 544px) {
+      .textbalk h2 {
+        font-size: 20px;
+      }
+
+    }
+
+#activeHome {
+  color: red;
+}
