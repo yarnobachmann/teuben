@@ -26,12 +26,12 @@
 
 <div class="textbalk">
 
-  <p>text text</p>
+  <h2>Contact</h2>
 </div>
 
 <div class="container-fluid text-center">
   <div class="row content">
-		<div class="col-sm-2 sidenav hidden-xs">
+		<div class="col-md-2 sidenav hidden-xs">
       <p id="linkslogo"><a href="https://twitter.com/TeubenAutos" target="_blank"><img src="img/links/twitter.gif" alt=""></a></p>
       <p id="linkslogo"><a href="https://www.facebook.com/TeubenAutos" target="_blank"><img src="img/links/facebook.gif" alt=""></a></p>
       <p id="linkslogo"><a href="http://www.belastingdienst.nl/reken/motorrijtuigenbelasting/" target="_blank"><img src="img/links/logobelastingdienst.jpg" alt=""></a></p>
@@ -40,7 +40,7 @@
 			<p id="linkslogo"><a href="http://www.cargo-export.eu" target="_blank"><img src="img/links/Cargo-Export.png" alt=""></a></p>
 			<p id="linkslogo"><a href="http://www.automotivefinancielediensten.nl/" target="_blank"><img src="img/links/afd-lease.jpg" alt=""></a></p>
     </div>
-    <div class="col-sm-5 text-left">
+    <div class="col-md-5 text-left float-geen">
       <h1>Mail Ons</h1>
         <hr>
         <h3>Teuben Auto's</h3><p>

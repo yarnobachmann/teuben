@@ -27,7 +27,7 @@
 
 <div class="textbalk">
 
-  <p>text text</p>
+  <h2>Financiering</h2>
 </div>
 
 <div class="container-fluid text-center">
@@ -73,6 +73,6 @@
 		<script src="js/bootstrap.min.js"></script>
     <script src="js/js.js"></script>
 		<script src="js/scrolling-nav.js"></script>
-		<script src="js/imgsize.js"></script>				
+		<script src="js/imgsize.js"></script>
 	</body>
 </html>

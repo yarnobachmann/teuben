@@ -70,7 +70,7 @@
 <!-- /.carousel -->
 <div class="textbalk">
 
-  <p>text text</p>
+  <h2>Welkom de website van Teubenauto's</h2>
 </div>
 
 <div class="container-fluid text-center">
@@ -106,7 +106,7 @@
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/scrolling-nav.js"></script>
-		<script src="js/imgsize.js"></script>		
+		<script src="js/imgsize.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function() {
 				$('.carousel').carousel({

@@ -44,16 +44,14 @@
   <div class="footer-right">
 
     <p class="footer-company-about">
-      <span>text</span>
-      text
+      <span>Social media</span>
+      Volg ons ook op Facebook en Twitter!
     </p>
 
     <div class="footer-icons">
 
-      <a href="#"><i class="fa fa-facebook"></i></a>
-      <a href="#"><i class="fa fa-twitter"></i></a>
-      <a href="#"><i class="fa fa-linkedin"></i></a>
-      <a href="#"><i class="fa fa-github"></i></a>
+      <a href="https://www.facebook.com/TeubenAutos" target="_blank"><i class="fa fa-facebook"></i></a>
+      <a href="https://twitter.com/TeubenAutos" target="_blank"><i class="fa fa-twitter"></i></a>
 
     </div>
 
