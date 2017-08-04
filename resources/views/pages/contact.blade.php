@@ -147,6 +147,6 @@
 		<script src="js/bootstrap.min.js"></script>
     <script src="js/js.js"></script>
 		<script src="js/scrolling-nav.js"></script>
-		<script src="js/imgsize.js"></script>				
+		<script src="js/imgsize.js"></script>
 	</body>
 </html>
