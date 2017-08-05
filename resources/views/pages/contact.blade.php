@@ -17,9 +17,11 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 	</head>
 	<body>
-
-		 @include('partials._navbar')
-
+		@if (Auth::check())
+		@include('partials._navbarAuth')
+		@else
+		@include('partials._navbar')
+		@endif
 <div class="header">
 
 </div>

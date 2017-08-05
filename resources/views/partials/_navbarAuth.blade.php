@@ -34,11 +34,17 @@
                     <a class="page-scroll" id="activeContact" href="{{ url("/contact") }}">Contact</a>
                 </li>
             </ul>
-            <ul class="nav navbar-nav navbar-right login">
-              <a href="{{ url('login') }}" class="btn btn-danger ">Login</a>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{{ isset(Auth::user()->name) ? Auth::user()->name : Auth::user()->email }}} <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="{{ url('gallery/list') }}">Album lijst</a></li>
+            <li><a href="{{ url('autovdweek') }}">AutovdWeek</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="{{ url('user/logout') }}">Uitloggen</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
 </nav>

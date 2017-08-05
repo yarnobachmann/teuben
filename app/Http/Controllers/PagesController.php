@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Facades\DB;
+use App\Gallery;
 use Illuminate\Http\Request;
-
-use App\Http\Requests;
+use Illuminate\Support\Facades\Auth;
+use Intervention\Image\Facades\Image;
 
 
 class PagesController extends Controller {
@@ -31,6 +33,29 @@ class PagesController extends Controller {
      {
          return view('pages.bedrijfswagens');
      }
+     public function album()
+  {
+      $galleries = Gallery::all();
 
+       return view('pages.gallery')->with('galleries', $galleries);
+  }
+  public function photo($id)
+  {
+
+    $gallery = Gallery::findOrFail($id);
+
+    return view('pages.gallery-photos')->with([
+        'gallery' => $gallery
+      ]);
+  }
+
+  public function login()
+      {
+             if(Auth::check()) {
+               return redirect('/');
+             }
+             return view('users.login');
+
+      }
 }
 ?>

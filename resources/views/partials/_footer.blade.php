@@ -36,7 +36,7 @@
 
     <div>
       <i class="fa fa-envelope"></i>
-      <p><a href="mailto:support@company.com">info@teubenautos.nl</a></p>
+      <p><a href="mailto:info@teubenautos.nl">info@teubenautos.nl</a></p>
     </div>
 
   </div>

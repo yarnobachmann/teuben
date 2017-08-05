@@ -17,9 +17,11 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 	</head>
 	<body>
-
-		 @include('partials._navbar')
-
+		@if (Auth::check())
+		@include('partials._navbarAuth')
+		@else
+		@include('partials._navbar')
+		@endif
 <div class="header">
 
 </div>
@@ -46,7 +48,7 @@
 		<div class="col-sm-2 sidenav">
 			<div class="well">
 				<p>auto van de week</p>
-				<img src="img/autovdweek/320x200.png" class="img-responsive" alt="">
+				<img src="/autos/autos/autovdweek.jpeg" class="img-responsive" alt="">
 			</div>
 		</div>
   </div>

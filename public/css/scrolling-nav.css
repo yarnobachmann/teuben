@@ -41,5 +41,7 @@ html {
 
 .nav{
    font-weight: bold;
-   font-size: 20px;
+   font-size: 18px;
 }
+
+.login {margin-top: 8px;}

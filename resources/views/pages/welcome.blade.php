@@ -19,8 +19,11 @@
 	</head>
 	<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-		  @include('partials._navbar')
-
+		@if (Auth::check())
+		@include('partials._navbarAuth')
+		@else
+		@include('partials._navbar')
+		@endif
 <!-- Carousel
 ================================================== -->
 <div id="myCarousel" class="carousel slide">
@@ -94,10 +97,13 @@
     <div class="col-sm-2 sidenav">
       <div class="well">
         <p>auto van de week</p>
-				<img src="img/autovdweek/320x200.png" class="img-responsive" alt="">
+				<img src="/autos/autos/autovdweek.jpeg" class="img-responsive" alt="">
       </div>
     </div>
   </div>
+</div>
+<div class="roete">
+	<iframe class="locatie" frameborder="0" src="http://maps.google.nl/maps?f=q&amp;source=s_q&amp;hl=nl&amp;geocode=&amp;q=Willem+Barentszstraat,+7825VZ+Emmen,+Drenthe&amp;sll=52.469397,5.509644&amp;sspn=3.868894,10.964355&amp;ie=UTF8&amp;hq=&amp;hnear=Willem+Barentszstraat,+7825VZ+Emmen,+Drenthe&amp;ll=52.749386,6.938639&amp;spn=0.018184,0.087891&amp;z=14&amp;iwloc=A&amp;output=embed" ></iframe>
 </div>
 
 		  @include('partials._footer')

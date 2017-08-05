@@ -336,3 +336,7 @@ body {
 #activeFinanciering {
   color: red;
 }
+
+.sidenav p {
+  font-weight: bold;
+}
