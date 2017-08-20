@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/scrolling-nav.css">
     <link rel="stylesheet" href="/css/footer-distributed-with-address-and-phones.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width"/>
 
     <script>  var baseUrl = "{{ url('/') }}"; </script>﻿
     @yield('style')
