@@ -22,7 +22,7 @@
                     <a class="page-scroll" id="activeFinanciering" href="{{ url("financiering") }}">Financiering</a>
                 </li>
                 <li>
-                    <a class="page-scroll" id="activeOccasions" href="{{ url("occasions") }}"><i class="fa fa-car" aria-hidden="true"></i>Occasions</a>
+                    <a class="page-scroll" id="activeOccasions" href="{{ url("occasions") }}"><i class="fa fa-car" aria-hidden="true"></i> Occasions</a>
                 </li>
                 <li>
                     <a class="page-scroll" id="activeBedrijfswagens" href="{{ url("bedrijfswagens") }}"><i class="fa fa-truck" aria-hidden="true"></i>Bedrijfswagens</a>

@@ -29,10 +29,10 @@
   height: 160px;
   border: 0px solid black;
   margin-bottom: 10px;
-  border-top-left-radius: 10%;
-  border-top-right-radius: 10%;
-  border-bottom-right-radius: 10%;
-  border-bottom-left-radius: 10%;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+  border-bottom-right-radius: 3%;
+  border-bottom-left-radius: 3%;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.77);
 }
 

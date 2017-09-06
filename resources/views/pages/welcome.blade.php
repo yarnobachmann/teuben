@@ -87,7 +87,7 @@
 			<p id="linkslogo"><a href="http://www.cargo-export.eu" target="_blank"><img src="img/links/Cargo-Export.png" alt=""></a></p>
 			<p id="linkslogo"><a href="http://www.automotivefinancielediensten.nl/" target="_blank"><img src="img/links/afd-lease.jpg" alt=""></a></p>
     </div>
-    <div class="col-sm-8 text-left">
+    <div class="col-sm-8 text-left padding-text">
       <h1>Teubenauto's</h1>
       <p>Wij zijn een familie bedrijf. Sinds 2009 zijn wij gevestigd in ons nieuwe pand aan de Willem Barentszstraat in Emmen met een eigen werkplaats,
 				reparatie, onderhoud en uitlees-mogelijkheden. Autobedrijf Henk Teuben en Zonen heeft inmiddels een gevestigde naam in de regio opgebouwd.

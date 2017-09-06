@@ -36,7 +36,7 @@
             </ul>
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{{ isset(Auth::user()->name) ? Auth::user()->name : Auth::user()->email }}} <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ str_limit(Auth::user()['name'], 5) }} <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="{{ url('gallery/list') }}">Album lijst</a></li>
             <li><a href="{{ url('autovdweek') }}">AutovdWeek</a></li>

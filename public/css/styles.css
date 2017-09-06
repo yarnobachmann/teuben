@@ -289,3 +289,8 @@ body {
 .sidenav p {
   font-weight: bold;
 }
+
+.padding-text{
+  padding-left: 25px;
+  padding-right: 25px;
+}

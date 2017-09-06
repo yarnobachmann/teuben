@@ -62,7 +62,7 @@
 		</div>
 	  </div>
 
-		<div class="col-sm-2 sidenav">
+		<div class="col-sm-2 sidenav hidden-xs">
 			<div class="well">
 				<p>auto van de week</p>
 				<img src="/autos/autos/autovdweek.jpeg" class="img-responsive" alt="">
