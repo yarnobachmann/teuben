@@ -297,3 +297,16 @@ body {
 .sidenav p {
   font-weight: bold;
 }
+
+iframe {
+    border: none;
+    height: 2500px;
+    margin: 0;
+    padding: 0;
+    display:block;
+}
+
+.lenen img {
+  width: 134px;
+  height: 50px;
+}

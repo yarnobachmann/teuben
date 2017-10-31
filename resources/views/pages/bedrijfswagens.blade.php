@@ -41,9 +41,10 @@
 			<p id="linkslogo"><a href="https://ovi.rdw.nl/" target="_blank"><img src="img/links/RDW-check.png" alt=""></a></p>
 			<p id="linkslogo"><a href="http://www.cargo-export.eu" target="_blank"><img src="img/links/Cargo-Export.png" alt=""></a></p>
 			<p id="linkslogo"><a href="http://www.automotivefinancielediensten.nl/" target="_blank"><img src="img/links/afd-lease.jpg" alt=""></a></p>
+			<p id="linkslogo"><div id="_yelder_" class="lenen" data-btn="1"></div></p>
     </div>
 		<div class="col-sm-8 text-left">
-
+<iframe src="http://voorraad.autodatawheelerdelta.nl/cgi/voertuigen.cgi?site=voorraadlijst&v=13ebf1f" border="0" frameborder="0" marginheight="20" marginwidth="30" name="I1" onload="window.parent.parent.scrollTo(0,275)"  width="100%" ></iframe>
 		</div>
 		<div class="col-sm-2 sidenav">
 			<div class="well">
@@ -63,5 +64,20 @@
     <script src="js/js.js"></script>
 		<script src="js/scrolling-nav.js"></script>
 		<script src="js/imgsize.js"></script>
+		<script type="text/javascript">
+
+		(function () {
+			var _yelder = {};
+			var _yelderCompany = "TeubenAutos";
+			var _yelderCompanyId = "0000000000241927";
+
+			var yelderJS = document.createElement("script");
+			yelderJS.type = "text/javascript";
+      yelderJS.async = true;
+      yelderJS.src = "https://www.yelder.nl/api/calculator-widget/widget.js?c=" + _yelderCompany + "&cid=" + _yelderCompanyId;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(yelderJS, s);
+			})();
+	 </script>
 	</body>
 </html>

@@ -296,3 +296,8 @@ body {
   #activeContact {
     color: red;
   }
+
+  .lenen img {
+    width: 134px;
+    height: 50px;
+  }

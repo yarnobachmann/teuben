@@ -44,6 +44,7 @@
     <script type="text/javascript" src="/js/image.js"></script>
     <script type="text/javascript" src="/js/scrolling-nav.js"></script>
     <script type="text/javascript" src="/js/imgsize.js"></script>
+    
     @yield('code')
   </body>
 </html>

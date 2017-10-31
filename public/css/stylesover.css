@@ -5,7 +5,10 @@ body {
 
 }
 
-
+.lenen img {
+  width: 134px;
+  height: 50px;
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -267,6 +270,12 @@ body {
     white-space: nowrap;
   }
 
+  @media (max-width: 768px) {
+.col-sm-8 {
+    width: 100%;
+  }
+}
+
   @media screen and (max-width: 989px) {
     .min-img {
       width: auto;
@@ -319,18 +328,25 @@ body {
 .one,
 .two,
 .three {
+  display: block;
   width: 30.6666666667%;
   float: left;
+  padding-left: 50px;
+  margin-bottom: 20px;
 }
 
-@media screen and (max-width: 980px){
+@media screen and (max-width: 800px){
       .one,
       .two,
       .three {
         width: 100%;
-        margin-left: 0%
+        margin-left: 0%;
+        padding-left: 0px;
+        margin-bottom: 0px;
     }
-
+    .sidenav {
+      display: none;
+    }
 }
 
 #activeFinanciering {
@@ -341,6 +357,8 @@ body {
   font-weight: bold;
 }
 
-.bg-color {
 
+.lenen img {
+  width: 134px;
+  height: 50px;
 }

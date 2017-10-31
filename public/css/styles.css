@@ -39,7 +39,7 @@ body {
   background-color:#555;
 }
 .carousel img {
-  object-fit:cover;
+  object-fit: cover;
   min-width: 100%;
   max-width: none;
   background-size: cover;
@@ -49,7 +49,23 @@ body {
   min-height: 400px;
 }
 
+@media (min-width: 1920px) {
+  .carousel .item {
+    height: 600px;
+  }
+}
 
+@media (min-width: 1920px) {
+  .carousel img {
+    top: -40px;
+  }
+}
+
+@media (min-width: 2500px) {
+  .carousel img {
+    top: -80px;
+  }
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -289,8 +305,14 @@ body {
 .sidenav p {
   font-weight: bold;
 }
-
+@media screen and (min-width: 800px) {
 .padding-text{
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+}
+
+.lenen img {
+  width: 134px;
+  height: 50px;
 }
