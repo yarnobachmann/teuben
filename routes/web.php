@@ -40,6 +40,7 @@ Route::get('photos/{id}', 'pagesController@photo');
 Route::post('image/do-upload', 'GalleryController@doImageUpload');
 Route::get('albums', 'pagesController@album');
 Route::get('autovdweek', 'GalleryController@AutovdWeek');
+Route::get('onsteam', 'pagesController@team');
 Route::post('autosupload', function() {
 
   $file = request()->file('auto');

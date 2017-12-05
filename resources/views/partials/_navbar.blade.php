@@ -27,9 +27,18 @@
                 <li>
                     <a class="page-scroll" id="activeBedrijfswagens" href="{{ url("bedrijfswagens") }}"><i class="fa fa-truck" aria-hidden="true"></i>Bedrijfswagens</a>
                 </li>
-                <li>
-                    <a class="page-scroll" id="activeFotoalbum" href="{{ url("albums") }}">Fotoalbum</a>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Over ons <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="page-scroll dropdown-item" id="activeFotoalbum" href="{{ url("albums") }}">Fotoalbum</a>
+                    <hr class="padding-item">
+                    <a class="page-scroll dropdown-item" id="activeOns" href="{{ url("onsteam") }}">Ons Team</a>
+                  </div>
                 </li>
+
                 <li>
                     <a class="page-scroll" id="activeContact" href="{{ url("/contact") }}">Contact</a>
                 </li>

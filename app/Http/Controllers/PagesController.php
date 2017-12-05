@@ -16,6 +16,11 @@ class PagesController extends Controller {
         return view('pages.welcome');
     }
 
+    public function team()
+    {
+        return view('pages.onsteam');
+    }
+
      public function getContact()
     {
         return view('pages.contact');
