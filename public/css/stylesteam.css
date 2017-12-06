@@ -347,7 +347,7 @@ body {
     }
 }
 
-#activeFinanciering {
+#navbarDropdownMenuLink,#activeOns {
   color: red;
 }
 
@@ -407,6 +407,36 @@ li img:hover  {
   .img-grid {
     width: 100%;
     margin: 20px auto;
+  }
+
+  .caption {
+    color: white;
+    float: left;
+    width: 60%;
+    margin-left: 15px;
+    bottom: .5rem;
+    position: absolute;
+    padding-top: 4px;
+    background: rgba(0,0,0, 0.7);
+  }
+
+  .caption .name{
+      float: left;
+      padding-left: 4px;
+      font-weight: bold;
+      font-size: 12px;
+  }
+
+  .caption .func {
+      font-size: 10px;
+      background-color: #cc0000;
+      white-space: nowrap;
+      color: white;
+      padding: 5px;
+      float: right;
+      margin-bottom: -3px;
+      margin-right: -7px;
+      font-style: italic;
   }
 }
 

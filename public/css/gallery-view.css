@@ -203,3 +203,7 @@ footer{
   margin-top: 200px;
 
 }
+
+#navbarDropdownMenuLink,#activeFotoalbum {
+  color: red;
+}

@@ -73,63 +73,63 @@
   <div class="col-md-4 away blur-img">
         <img src="/img/team/Bennie.jpg" alt="Bennie" style="width:80%">
         <div class="caption">
-          <p>Bennie Teuben | Eigenaar/verkoper</p>
+          <p><span class="name">Bennie Teuben</span><br> <span class="func">Eigenaar/verkoper</span></p>
         </div>
   </div>
   <br>
   <div class="col-md-4 away blur-img">
         <img src="/img/team/Harrie.jpg" alt="Harry" style="width:80%">
         <div class="caption">
-          <p>Harry Teuben | Eigenaar/inkoper</p>
+          <p><span class="name">Harry Teuben</span><br> <span class="func">Eigenaar/inkoper</span></p>
         </div>
   </div>
   <br>
   <div class="col-md-4 away blur-img">
         <img src="/img/team/Hendrik.jpg" alt="Hendrik" style="width:80%">
         <div class="caption">
-          <p>Hendrik Teuben | Eigenaar/inkoper/verkoper</p>
+          <p><span class="name">Hendrik Teuben</span><br> <span class="func">Eigenaar/inkoper/verkoper</span></p>
         </div>
   </div>
   <br>
   <div class="col-md-4 away blur-img">
         <img src="/img/team/Herman.jpg" alt="Herman" style="width:80%">
         <div class="caption">
-          <p>Herman Teuben | Eigenaar/transport/verkoper</p>
+          <p><span class="name">Herman Teuben</span><br> <span class="func">Eigenaar/transport/verkoper</span></p>
         </div>
   </div>
   <br>
   <div class="col-md-4 away blur-img">
         <img src="/img/team/Jan.jpg" alt="Jan" style="width:80%">
         <div class="caption">
-          <p>Jan Potze | Werkplaats chef</p>
+          <p><span class="name">Jan Potze</span><br> <span class="func">Werkplaats chef</span></p>
         </div>
   </div>
   <br>
   <div class="col-md-4 away blur-img">
         <img src="/img/team/Jordy.jpg" alt="Jordy" style="width:80%">
         <div class="caption">
-          <p>Jordy van Riezen | 2e autotechnicus/leerling 1e monteur</p>
+          <p><span class="name">Jordy van Riezen</span><br> <span class="func">2e autotechnicus/leerling 1e monteur</span></p>
         </div>
   </div>
   <br>
   <div class="col-md-4 away blur-img">
         <img src="/img/team/Joris.jpg" alt="Joris" style="width:80%">
         <div class="caption">
-          <p>Joris Lingenaar | Receptie/algemeen medewerker</p>
+          <p><span class="name">Joris Lingenaar</span><br> <span class="func">Receptie/algemeen medewerker</span></p>
         </div>
   </div>
   <br>
   <div class="col-md-4 away blur-img">
         <img src="/img/team/Rhody.jpg" alt="Rhody" style="width:80%">
         <div class="caption">
-          <p>Rhody Ulrich | Auto detailer</p>
+          <p><span class="name">Rhody Ulrich</span><br> <span class="func">Auto detailer</span></p>
         </div>
   </div>
   <br>
   <div class="col-md-4 away blur-img">
         <img src="/img/team/Yvonne.jpg" alt="Yvonne" style="width:80%">
         <div class="caption">
-          <p>Yvonne Tuik | Administratie</p>
+          <p><span class="name">Yvonne Tuik</span><br> <span class="func">Administratie</span></p>
         </div>
   </div>
   <br>
