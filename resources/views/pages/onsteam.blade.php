@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
 		<link href="css/scrolling-nav.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 	</head>
 	<body>
 		@if (Auth::check())

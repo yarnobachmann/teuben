@@ -15,6 +15,8 @@ Route::get('/', 'PagesController@getIndex');
 
 Route::get('contact', 'PagesController@getContact');
 
+Route::post('contact', 'PagesController@postContact');
+
 Route::get('occasions', 'PagesController@getOccasions');
 
 Route::get('financiering', 'PagesController@getFinanciering');
@@ -26,6 +28,8 @@ Auth::routes();
 Route::get('login', ['as' => 'login', 'uses' => 'PagesController@login']);
 
 Route::post('user/do-login', 'Auth\LoginController@doLogin');
+
+
 Route::get('user/logout', function(){
   Auth::logout();
   return redirect('/');
@@ -36,11 +40,11 @@ Route::get('gallery/list', 'GalleryController@viewGalleryList');
 Route::post('gallery/save', 'GalleryController@saveGallery');
 Route::get('gallery/delete/{id}', 'GalleryController@deleteGallery');
 Route::get('gallery/view/{id}', 'GalleryController@viewGalleryPics');
-Route::get('photos/{id}', 'pagesController@photo');
+Route::get('photos/{id}', 'PagesController@photo');
 Route::post('image/do-upload', 'GalleryController@doImageUpload');
-Route::get('albums', 'pagesController@album');
+Route::get('albums', 'PagesController@album');
 Route::get('autovdweek', 'GalleryController@AutovdWeek');
-Route::get('onsteam', 'pagesController@team');
+Route::get('onsteam', 'PagesController@team');
 Route::post('autosupload', function() {
 
   $file = request()->file('auto');

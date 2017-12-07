@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/css/lightbox.css">
     <link rel="stylesheet" href="/css/scrolling-nav.css">
     <link rel="stylesheet" href="/css/footer-distributed-with-address-and-phones.css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width"/>
 
     <script>  var baseUrl = "{{ url('/') }}"; </script>﻿
@@ -44,7 +44,7 @@
     <script type="text/javascript" src="/js/image.js"></script>
     <script type="text/javascript" src="/js/scrolling-nav.js"></script>
     <script type="text/javascript" src="/js/imgsize.js"></script>
-    
+
     @yield('code')
   </body>
 </html>

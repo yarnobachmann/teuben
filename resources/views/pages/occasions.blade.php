@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
 		<link href="css/scrolling-nav.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 
@@ -62,7 +62,7 @@
 							<p id="linkslogo"><div id="_yelder_" class="lenen" data-btn="1"></div></p>
 				     </div>
 				 		<div class="col-sm-8 text-left">
-						<iframe src="http://voorraad.autodatawheelerdelta.nl/cgi/voertuigen.cgi?site=voorraadlijst&v=10014" border="0" frameborder="0" marginheight="20" marginwidth="30" name="I1" onload="window.parent.parent.scrollTo(0,275)"  width="100%" ></iframe>
+						<iframe src="https://voorraad.autodatawheelerdelta.nl/cgi/voertuigen.cgi?site=voorraadlijst&v=10014" border="0" frameborder="0" marginheight="20" marginwidth="30" name="I1" onload="window.parent.parent.scrollTo(0,275)"  width="100%" ></iframe>
 
 
 						</div>

@@ -9,7 +9,7 @@ Admin
 @endsection
 
 @section('textbalk')
-  <h2>Foto drop</h2>
+  <h2>Foto drop<small>(niet met internet explorer)</small></h2>
 @endsection
 
 @section('content')

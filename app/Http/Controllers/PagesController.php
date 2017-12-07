@@ -7,6 +7,7 @@ use App\Gallery;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Intervention\Image\Facades\Image;
+use Mail;
 
 
 class PagesController extends Controller {
@@ -26,6 +27,28 @@ class PagesController extends Controller {
         return view('pages.contact');
     }
 
+    public function postContact(Request $request) {
+        $this->validate($request, [
+            'email' => 'required|email',
+            'name' => 'required',
+            'subject' => 'required',
+            'berricht' => 'min:10']);
+
+        $data = array(
+            'email' => $request->email,
+            'name' => $request->name,
+            'subject' => $request->subject,
+            'berricht' => $request->berricht
+            );
+
+        Mail::send('emails.contact', $data, function($message) use ($data){
+            $message->from($data['email']);
+            $message->to('yarnobachmann@gmail.com');
+      $message->subject($data['subject']);
+        });
+
+        return redirect('contact');
+      }
     public function getFinanciering()
     {
        return view('pages.financiering');

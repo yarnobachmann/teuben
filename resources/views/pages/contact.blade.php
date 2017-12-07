@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
 		<link href="css/scrolling-nav.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 	</head>
 	<body>
 		@if (Auth::check())
@@ -65,9 +65,14 @@
                 <input id="subject" name="subject" class="form-control">
             </div>
 
+						<div class="form-group">
+                <label name="subject">Naam:</label>
+                <input id="name" name="name" class="form-control">
+            </div>
+
             <div class="form-group">
-                <label name="message">Berricht:</label>
-                <textarea id="message" name="message" class="form-control" placeholder="Typ hier je berricht..."></textarea>
+                <label name="berricht">Bericht:</label>
+                <textarea id="berricht" name="berricht" class="form-control" placeholder="Typ hier je berricht..."></textarea>
             </div>
 
             <input type="submit" value="Stuur E-mail" class="btn btn-danger">
@@ -140,7 +145,7 @@
 </div>
 
 <div class="roete">
-	<iframe class="locatie" frameborder="0" src="http://maps.google.nl/maps?f=q&amp;source=s_q&amp;hl=nl&amp;geocode=&amp;q=Willem+Barentszstraat,+7825VZ+Emmen,+Drenthe&amp;sll=52.469397,5.509644&amp;sspn=3.868894,10.964355&amp;ie=UTF8&amp;hq=&amp;hnear=Willem+Barentszstraat,+7825VZ+Emmen,+Drenthe&amp;ll=52.749386,6.938639&amp;spn=0.018184,0.087891&amp;z=14&amp;iwloc=A&amp;output=embed" ></iframe>
+	<iframe class="locatie" frameborder="0" src="https://maps.google.nl/maps?f=q&amp;source=s_q&amp;hl=nl&amp;geocode=&amp;q=Willem+Barentszstraat,+7825VZ+Emmen,+Drenthe&amp;sll=52.469397,5.509644&amp;sspn=3.868894,10.964355&amp;ie=UTF8&amp;hq=&amp;hnear=Willem+Barentszstraat,+7825VZ+Emmen,+Drenthe&amp;ll=52.749386,6.938639&amp;spn=0.018184,0.087891&amp;z=14&amp;iwloc=A&amp;output=embed" ></iframe>
 </div>
 
 		  @include('partials._footer')
